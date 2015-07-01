@@ -1,0 +1,8 @@
+F:\desktop\uCos\uCos\uCos\bin\Release\uCos.exe.config
+F:\desktop\uCos\uCos\uCos\bin\Release\uCos.exe
+F:\desktop\uCos\uCos\uCos\bin\Release\uCos.pdb
+F:\desktop\uCos\uCos\uCos\obj\x86\Release\uCos.Form1.resources
+F:\desktop\uCos\uCos\uCos\obj\x86\Release\uCos.Properties.Resources.resources
+F:\desktop\uCos\uCos\uCos\obj\x86\Release\uCos.csproj.GenerateResource.Cache
+F:\desktop\uCos\uCos\uCos\obj\x86\Release\uCos.exe
+F:\desktop\uCos\uCos\uCos\obj\x86\Release\uCos.pdb
