@@ -6,3 +6,6 @@ F:\desktop\uCos\uCos\uCos\obj\x86\Debug\uCos.csproj.GenerateResource.Cache
 F:\desktop\uCos\uCos\uCos\obj\x86\Debug\uCos.exe
 F:\desktop\uCos\uCos\uCos\obj\x86\Debug\uCos.pdb
 F:\desktop\uCos\uCos\uCos\bin\Debug\uCos.exe.config
+F:\文档\MyGitHub\uCos\uCos\bin\Debug\uCos.exe.config
+F:\文档\MyGitHub\uCos\uCos\obj\x86\Debug\uCos.exe
+F:\文档\MyGitHub\uCos\uCos\obj\x86\Debug\uCos.pdb
