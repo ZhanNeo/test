@@ -12,3 +12,10 @@ F:\desktop\数据库\Web1\Web1\bin\DatabaseUser.dll
 F:\desktop\数据库\Web1\Web1\bin\DatabaseUser.pdb
 F:\desktop\数据库\Web1\Web1\obj\Debug\Web1.dll
 F:\desktop\数据库\Web1\Web1\obj\Debug\Web1.pdb
+F:\文档\MyGitHub\Web1\Web1\bin\Web1.dll
+F:\文档\MyGitHub\Web1\Web1\bin\Web1.pdb
+F:\文档\MyGitHub\Web1\Web1\bin\DatabaseUser.dll
+F:\文档\MyGitHub\Web1\Web1\bin\DatabaseUser.pdb
+F:\文档\MyGitHub\Web1\Web1\obj\Debug\Web1.csprojResolveAssemblyReference.cache
+F:\文档\MyGitHub\Web1\Web1\obj\Debug\Web1.dll
+F:\文档\MyGitHub\Web1\Web1\obj\Debug\Web1.pdb
