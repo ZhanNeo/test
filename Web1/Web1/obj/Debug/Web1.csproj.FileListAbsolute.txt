@@ -1,0 +1,14 @@
+E:\desktop\数据库\Web1\Web1\obj\Debug\Web1.csprojResolveAssemblyReference.cache
+E:\desktop\数据库\Web1\Web1\bin\Web1.dll
+E:\desktop\数据库\Web1\Web1\bin\Web1.pdb
+E:\desktop\数据库\Web1\Web1\bin\DatabaseUser.dll
+E:\desktop\数据库\Web1\Web1\bin\DatabaseUser.pdb
+E:\desktop\数据库\Web1\Web1\obj\Debug\Web1.dll
+E:\desktop\数据库\Web1\Web1\obj\Debug\Web1.pdb
+F:\desktop\数据库\Web1\Web1\obj\Debug\Web1.csprojResolveAssemblyReference.cache
+F:\desktop\数据库\Web1\Web1\bin\Web1.dll
+F:\desktop\数据库\Web1\Web1\bin\Web1.pdb
+F:\desktop\数据库\Web1\Web1\bin\DatabaseUser.dll
+F:\desktop\数据库\Web1\Web1\bin\DatabaseUser.pdb
+F:\desktop\数据库\Web1\Web1\obj\Debug\Web1.dll
+F:\desktop\数据库\Web1\Web1\obj\Debug\Web1.pdb

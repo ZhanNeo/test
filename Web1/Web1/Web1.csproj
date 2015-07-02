@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECC3FA7A-87DD-46CE-BEEB-FBD2FDB8828E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web1</RootNamespace>
+    <AssemblyName>Web1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="guanliyuanlogin.aspx" />
+    <Content Include="guanli\dingdan.aspx" />
+    <Content Include="image\condiment\aginomoto.jpg" />
+    <Content Include="image\condiment\rock_candy.jpg" />
+    <Content Include="image\condiment\salt.jpg" />
+    <Content Include="image\condiment\soy.jpg" />
+    <Content Include="image\condiment\vinigar.jpg" />
+    <Content Include="image\condiment\大红枣.jpg" />
+    <Content Include="image\condiment\木耳1.jpg" />
+    <Content Include="image\condiment\穆尔.jpg" />
+    <Content Include="image\condiment\野生菌1.jpg" />
+    <Content Include="image\condiment\野生菌2.jpg" />
+    <Content Include="yonghu\chicken.aspx" />
+    <Content Include="yonghu\duck.aspx" />
+    <Content Include="yonghu\egg.aspx" />
+    <Content Include="yonghu\freshFish.aspx" />
+    <Content Include="yonghu\freshMeat.aspx" />
+    <Content Include="guanli\guanliindex.aspx" />
+    <Content Include="guanli\shangpin.aspx" />
+    <Content Include="guanli\tuijianyupinglun.aspx" />
+    <Content Include="guanli\yonghu.aspx" />
+    <Content Include="guanli\guanliyuan.aspx" />
+    <Content Include="houtai.aspx" />
+    <Content Include="image\dingdan.png" />
+    <Content Include="image\fish\black_carp.jpg" />
+    <Content Include="image\fish\chub.jpg" />
+    <Content Include="image\fish\crucian.jpg" />
+    <Content Include="image\fish\grass_carp.jpg" />
+    <Content Include="image\fish\kelp1.jpg" />
+    <Content Include="image\fish\kelp2.jpg" />
+    <Content Include="image\fish\salmon.jpg" />
+    <Content Include="image\fish\sardine.jpg" />
+    <Content Include="image\fish\shrimp1.jpg" />
+    <Content Include="image\fish\shrimp2.jpg" />
+    <Content Include="image\fish\shrimp3.jpg" />
+    <Content Include="image\fruit\apple.jpg" />
+    <Content Include="image\fruit\banana.jpg" />
+    <Content Include="image\fruit\cherry.jpg" />
+    <Content Include="image\fruit\grape.gif" />
+    <Content Include="image\fruit\mango.jpg" />
+    <Content Include="image\fruit\orange.jpg" />
+    <Content Include="image\fruit\platter.jpg" />
+    <Content Include="image\fruit\strawberry.jpg" />
+    <Content Include="image\fruit\watermelon.jpg" />
+    <Content Include="image\guanliyuan.png" />
+    <Content Include="image\jiben.png" />
+    <Content Include="image\kehu.png" />
+    <Content Include="image\meat\beef1.jpg" />
+    <Content Include="image\meat\beef2.jpg" />
+    <Content Include="image\meat\chicken1.jpg" />
+    <Content Include="image\meat\duck1.jpg" />
+    <Content Include="image\meat\duck2.jpg" />
+    <Content Include="image\meat\egg1.jpg" />
+    <Content Include="image\meat\egg2.jpg" />
+    <Content Include="image\meat\egg3.jpg" />
+    <Content Include="image\meat\freshmeat1.jpg" />
+    <Content Include="image\meat\freshmeat2.jpg" />
+    <Content Include="image\meat\freshmeat3.jpg" />
+    <Content Include="image\meat\mutton.jpg" />
+    <Content Include="image\meat\pock1.jpg" />
+    <Content Include="image\meat\pock2.jpg" />
+    <Content Include="image\meat\pock_steak1.jpg" />
+    <Content Include="image\meat\pock_steak2.jpg" />
+    <Content Include="image\pai.png" />
+    <Content Include="image\pixviewer.swf" />
+    <Content Include="image\richu.jpg" />
+    <Content Include="image\richu2.jpg" />
+    <Content Include="image\shangpin.png" />
+    <Content Include="image\tuichu.png" />
+    <Content Include="image\tuijianyupinglun.png" />
+    <Content Include="image\vegetable\cabbage.jpg" />
+    <Content Include="image\vegetable\Cabbage_heart.jpg" />
+    <Content Include="image\vegetable\Lettuces.jpg" />
+    <Content Include="image\vegetable\tomato.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="tuijian.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="yonghu\fruit.aspx" />
+    <Content Include="yonghu\ganhuo.aspx" />
+    <Content Include="yonghu\gouwuche.aspx" />
+    <Content Include="yonghu\gouwuche.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="yonghu\haixian.aspx" />
+    <Content Include="yonghu\hongzaomuer.aspx" />
+    <Content Include="yonghu\paigu.aspx" />
+    <Content Include="yonghu\pork.aspx" />
+    <Content Include="yonghu\shicaixingxi.aspx" />
+    <Content Include="yonghu\tiaowei.aspx" />
+    <Content Include="yonghu\vegetable2.aspx" />
+    <Content Include="yonghu\vegetables.aspx" />
+    <Content Include="yonghu\yonghudingdan.aspx" />
+    <Content Include="yonghu\yonghuzhuce.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="guanliyuanlogin.aspx.cs">
+      <DependentUpon>guanliyuanlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="guanliyuanlogin.aspx.designer.cs">
+      <DependentUpon>guanliyuanlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\dingdan.aspx.cs">
+      <DependentUpon>dingdan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="guanli\dingdan.aspx.designer.cs">
+      <DependentUpon>dingdan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\chicken.aspx.cs">
+      <DependentUpon>chicken.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\chicken.aspx.designer.cs">
+      <DependentUpon>chicken.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\duck.aspx.cs">
+      <DependentUpon>duck.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\duck.aspx.designer.cs">
+      <DependentUpon>duck.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\egg.aspx.cs">
+      <DependentUpon>egg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\egg.aspx.designer.cs">
+      <DependentUpon>egg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\freshFish.aspx.cs">
+      <DependentUpon>freshFish.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\freshFish.aspx.designer.cs">
+      <DependentUpon>freshFish.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\freshMeat.aspx.cs">
+      <DependentUpon>freshMeat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\freshMeat.aspx.designer.cs">
+      <DependentUpon>freshMeat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\guanliindex.aspx.cs">
+      <DependentUpon>guanliindex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="guanli\guanliindex.aspx.designer.cs">
+      <DependentUpon>guanliindex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\shangpin.aspx.cs">
+      <DependentUpon>shangpin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="guanli\shangpin.aspx.designer.cs">
+      <DependentUpon>shangpin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\tuijianyupinglun.aspx.cs">
+      <DependentUpon>tuijianyupinglun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="guanli\tuijianyupinglun.aspx.designer.cs">
+      <DependentUpon>tuijianyupinglun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\yonghu.aspx.cs">
+      <DependentUpon>yonghu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="guanli\yonghu.aspx.designer.cs">
+      <DependentUpon>yonghu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="guanli\guanliyuan.aspx.cs">
+      <DependentUpon>guanliyuan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="guanli\guanliyuan.aspx.designer.cs">
+      <DependentUpon>guanliyuan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="houtai.aspx.cs">
+      <DependentUpon>houtai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tuijian.aspx.cs">
+      <DependentUpon>tuijian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\fruit.aspx.cs">
+      <DependentUpon>fruit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\fruit.aspx.designer.cs">
+      <DependentUpon>fruit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\ganhuo.aspx.cs">
+      <DependentUpon>ganhuo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\ganhuo.aspx.designer.cs">
+      <DependentUpon>ganhuo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\gouwuche.aspx.cs">
+      <DependentUpon>gouwuche.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\gouwuche.aspx.designer.cs">
+      <DependentUpon>gouwuche.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\haixian.aspx.cs">
+      <DependentUpon>haixian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\haixian.aspx.designer.cs">
+      <DependentUpon>haixian.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\hongzaomuer.aspx.cs">
+      <DependentUpon>hongzaomuer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\hongzaomuer.aspx.designer.cs">
+      <DependentUpon>hongzaomuer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\paigu.aspx.cs">
+      <DependentUpon>paigu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\paigu.aspx.designer.cs">
+      <DependentUpon>paigu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\pork.aspx.cs">
+      <DependentUpon>pork.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\pork.aspx.designer.cs">
+      <DependentUpon>pork.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\shicaixingxi.aspx.cs">
+      <DependentUpon>shicaixingxi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\shicaixingxi.aspx.designer.cs">
+      <DependentUpon>shicaixingxi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\tiaowei.aspx.cs">
+      <DependentUpon>tiaowei.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\tiaowei.aspx.designer.cs">
+      <DependentUpon>tiaowei.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\vegetable2.aspx.cs">
+      <DependentUpon>vegetable2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\vegetable2.aspx.designer.cs">
+      <DependentUpon>vegetable2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\vegetables.aspx.cs">
+      <DependentUpon>vegetables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\vegetables.aspx.designer.cs">
+      <DependentUpon>vegetables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\yonghudingdan.aspx.cs">
+      <DependentUpon>yonghudingdan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\yonghudingdan.aspx.designer.cs">
+      <DependentUpon>yonghudingdan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonghu\yonghuzhuce.aspx.cs">
+      <DependentUpon>yonghuzhuce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonghu\yonghuzhuce.aspx.designer.cs">
+      <DependentUpon>yonghuzhuce.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseUser\DatabaseUser.csproj">
+      <Project>{8804DA23-5612-43B6-B81A-7D46D9D042A2}</Project>
+      <Name>DatabaseUser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>8886</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+E:\desktop\数据库\Web1\DatabaseUser\bin\Debug\DatabaseUser.dll
+E:\desktop\数据库\Web1\DatabaseUser\bin\Debug\DatabaseUser.pdb
+E:\desktop\数据库\Web1\DatabaseUser\obj\Debug\DatabaseUser.dll
+E:\desktop\数据库\Web1\DatabaseUser\obj\Debug\DatabaseUser.pdb
+F:\desktop\数据库\Web1\DatabaseUser\bin\Debug\DatabaseUser.dll
+F:\desktop\数据库\Web1\DatabaseUser\bin\Debug\DatabaseUser.pdb
+F:\desktop\数据库\Web1\DatabaseUser\obj\Debug\DatabaseUser.dll
+F:\desktop\数据库\Web1\DatabaseUser\obj\Debug\DatabaseUser.pdb
+F:\desktop\数据库\Web1\DatabaseUser\obj\Debug\DatabaseUser.csprojResolveAssemblyReference.cache

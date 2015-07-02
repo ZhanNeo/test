@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/tuijian.aspx" title="产品分类"  description="">
+     <siteMapNode url="" title="1.新鲜蔬菜"  description="刚进口的蔬菜">
+        <siteMapNode url="~/yonghu/vegetables.aspx" title="有机蔬菜"  description="" />
+        <siteMapNode url="~/yonghu/vegetable2.aspx" title="无机蔬菜"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="2.肉禽蛋类"  description="">
+      <siteMapNode url="~/yonghu/freshMeat.aspx" title="鲜肉"  description="" />
+      <siteMapNode url="~/yonghu/paigu.aspx" title="排骨"  description="" />
+      <siteMapNode url="~/yonghu/pork.aspx" title="猪肉"  description="" />
+      <siteMapNode url="~/yonghu/chicken.aspx" title="养殖鸡肉"  description="" />
+      <siteMapNode url="~/yonghu/duck.aspx" title="活鸭肉"  description="" />
+      <siteMapNode url="~/yonghu/egg.aspx" title="鸡蛋"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="3.水产品类"  description="">
+      <siteMapNode url="~/yonghu/freshFish.aspx" title="鲜鱼"  description="" />
+      <siteMapNode url="~/yonghu/haixian.aspx" title="海鲜"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="4.干货调味"  description="">
+      <siteMapNode url="~/yonghu/ganhuo.aspx" title="野生菌"  description="" />
+      <siteMapNode url="~/yonghu/hongzaomuer.aspx" title="红枣木耳"  description="" />
+      <siteMapNode url="~/yonghu/tiaowei.aspx" title="调味品"  description="" />
+  </siteMapNode>
+  <siteMapNode url="" title="5.水果类"  description="">
+    <siteMapNode url="~/yonghu/fruit.aspx" title="进口水果"  description="" />
+  </siteMapNode>
+  </siteMapNode>
+</siteMap>
